@@ -13,7 +13,7 @@
 In this case, I will build a classification model using machine learning algorithms for predicting customer churn indicated by labels "Yes" or "No"
 
 ## Data Source
-The dataset for this case is obtained from ![Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+The dataset for this case is obtained from [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ## Data Cleaning
 - Convert "TotalCharges" which contains object data type to float using pd.to_numeric with error parameter coerce.
