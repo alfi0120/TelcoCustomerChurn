@@ -24,7 +24,7 @@ The dataset for this case is obtained from [Kaggle - Telco Customer Churn](https
 - Using heatmap, the feature "MonthlyCharges" has a high positive Pearson correlation with the "Churn" column compared to other continuous columns.
 
 ## Feature Engineering
-- Using one hot encoding to transform all categorical features except the target column.
+- Using one hot encoding to transform all categorical features.
 - To prevent data leakage, I split the data into 80% training data and 20% test data before applying the MinMaxScaler to transform the continuous features. Additionally, I stratify the target label during the splitting process.
 
 ## Modeling
